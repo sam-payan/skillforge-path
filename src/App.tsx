@@ -10,6 +10,7 @@ import Roadmap from "./pages/Roadmap";
 import Assessments from "./pages/Assessments";
 import Mentor from "./pages/Mentor";
 import Profile from "./pages/Profile";
+import TaskExecution from "./pages/TaskExecution";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/roadmap" element={<Roadmap />} />
           <Route path="/assessments" element={<Assessments />} />
+          <Route path="/task/:taskId" element={<TaskExecution />} />
           <Route path="/mentor" element={<Mentor />} />
           <Route path="/profile" element={<Profile />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
