@@ -100,7 +100,7 @@ const Sidebar = () => {
           <p className="text-xs text-sidebar-foreground mb-3">
             Get personalized guidance for your learning journey
           </p>
-          <Link to="mentor">
+          <Link to="/mentor">
           <Button size="sm" variant="accent" className="w-full text-xs">
             Start Chat
           </Button>
