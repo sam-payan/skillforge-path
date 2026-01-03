@@ -20,6 +20,7 @@ const Onboarding = () => {
   const [skillAssessments, setSkillAssessments] = useState<Record<string, number>>({});
   const [selectedTime, setSelectedTime] = useState<string | null>(null);
 
+  
   const handleSkillAssess = (skillId: string, level: number) => {
     setSkillAssessments((prev) => ({ ...prev, [skillId]: level }));
   };

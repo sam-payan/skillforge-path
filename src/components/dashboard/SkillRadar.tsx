@@ -15,6 +15,7 @@ interface SkillRadarProps {
   }[];
 }
 
+
 const SkillRadar = ({ skills }: SkillRadarProps) => {
   return (
     <div className="card-elevated p-6 animate-fade-in" style={{ animationDelay: "0.1s" }}>

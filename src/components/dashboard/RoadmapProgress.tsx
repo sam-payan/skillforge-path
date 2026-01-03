@@ -26,8 +26,7 @@ const RoadmapProgress = ({ phases }: RoadmapProgressProps) => {
           View Full Roadmap
           <ArrowRight className="w-3 h-3" />
         </Button>
-      </div>
-
+      </div> 
       <div className="space-y-4">
         {phases.map((phase, index) => (
           <div key={phase.id} className="relative">

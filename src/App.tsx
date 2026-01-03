@@ -30,7 +30,6 @@ const App = () => (
           <Route path="/task/:taskId" element={<TaskExecution />} />
           <Route path="/mentor" element={<Mentor />} />
           <Route path="/profile" element={<Profile />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

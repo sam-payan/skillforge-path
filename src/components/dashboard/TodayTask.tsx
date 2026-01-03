@@ -19,6 +19,7 @@ const difficultyColors = {
   Advanced: "bg-destructive/10 text-destructive",
 };
 
+
 const TodayTask = ({ task }: TodayTaskProps) => {
   return (
     <div className="card-elevated p-6 animate-fade-in">

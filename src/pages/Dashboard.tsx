@@ -17,6 +17,7 @@ const todayTask = {
   progress: 35,
 };
 
+
 const skills = [
   { name: "React", value: 78, fullMark: 100 },
   { name: "Node.js", value: 65, fullMark: 100 },

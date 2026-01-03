@@ -22,6 +22,7 @@ import DashboardLayout from "@/components/layout/DashboardLayout";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
+
 const skillScores = [
   { skill: "React", score: 78, change: +12 },
   { skill: "Node.js", score: 65, change: +8 },

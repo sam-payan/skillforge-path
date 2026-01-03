@@ -20,6 +20,7 @@ const priorityStyles = {
   low: "border-l-success",
 };
 
+
 const UpcomingTasks = ({ tasks }: UpcomingTasksProps) => {
   return (
     <div className="card-elevated p-6 animate-fade-in" style={{ animationDelay: "0.3s" }}>

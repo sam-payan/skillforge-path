@@ -18,6 +18,7 @@ const milestones = [
       { id: "1-4", title: "Async JavaScript", estimatedTime: "1.5h", status: "completed" as const },
     ],
   },
+  
   {
     id: "2",
     title: "React Essentials",
