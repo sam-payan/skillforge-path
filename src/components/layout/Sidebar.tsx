@@ -23,6 +23,8 @@ const navigation = [
   { name: "Profile", href: "/profile", icon: User },
 ];
 
+const mentorLink = navigation.find(item => item.name === "AI Mentor")?.href;
+
 const Sidebar = () => {
   const [collapsed, setCollapsed] = useState(false);
   const location = useLocation();
@@ -100,7 +102,8 @@ const Sidebar = () => {
           <p className="text-xs text-sidebar-foreground mb-3">
             Get personalized guidance for your learning journey
           </p>
-          <Link to="/mentor">
+          
+          <Link to = {mentorLink}> 
           <Button size="sm" variant="accent" className="w-full text-xs">
             Start Chat
           </Button>
