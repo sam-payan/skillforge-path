@@ -30,6 +30,7 @@ const Sidebar = () => {
   const location = useLocation();
 
   return (
+    <div>
     <aside
       className={cn(
         "fixed left-0 top-0 z-40 h-screen bg-sidebar border-r border-sidebar-border transition-all duration-300 flex flex-col",
@@ -134,6 +135,7 @@ const Sidebar = () => {
         </button>
       </div>
     </aside>
+    </div>
   );
 };
 
